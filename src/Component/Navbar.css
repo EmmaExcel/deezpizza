@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap');
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    background-color: crimson;
+    color: white;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    margin-left: 20px;
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li a {
+    color: white;
+}
+
+nav ul li a:hover{
+    color: gold;
+}
+
+.nav-brand{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: xx-large;
+    font-weight: bold;
+   
+}
+
+.nav-component{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-right: 20px;
+    font-size: x-large;
+}
+
+.nav-component i:hover{
+    color: gold;
+    cursor: pointer;
+}
+
+
+
+@media (max-width:800px) {
+    .nav-container{
+        display: none;
+    }
+
+}

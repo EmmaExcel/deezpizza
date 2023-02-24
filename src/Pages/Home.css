@@ -1,0 +1,148 @@
+.home-container{
+    background: linear-gradient(rgba(0, 0, 0, 0.262),rgba(0, 0, 0, 0.481)), url('../images/ivan-torres-MQUqbmszGGM-unsplash.jpg');
+    background-size: cover;
+    height: 85vh;
+    font-family: monospace;
+
+}
+
+.main-text{
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.home-header{
+    font-size: 60px;
+    margin-top: 200px;
+}
+
+.home-button{
+    margin-top: 20px;
+}
+.home-button button{
+    background: linear-gradient( to top, rgba(255, 255, 255, 0.511) 50%, rgba(255, 255, 255, 0.171) 50%) ;
+    border:3px solid white;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.home-button button:hover{
+    
+    transition: 1s;
+    background-size:100% 200%;
+    background-position: left bottom;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    cursor: pointer;
+}
+
+
+/* SECOND SECTION  */
+
+
+
+.home-menu{
+    height: 160vh;
+    font-family: monospace;
+}
+
+.home-menu-container{
+    display: grid;
+    place-items: center;
+    font-family: monospace;
+}
+
+.home-menu-header{
+    font-size: 35px;
+    padding-top: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.home-menu-box{
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.home-menu-box-image img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.home-menu-box-image{
+    margin-bottom: 20px;
+    height: 250px;
+    width: 400px;
+    background-color: gold;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.home-menu-box-desp{
+    text-align: center;
+}
+
+.home-menu-box-name{
+    font-size: 25px;
+}
+
+.home-menu-box-price{
+    font-size: 30px;
+}
+
+@media (max-width: 800px) {
+
+    .home-container{
+        background-position: center;
+    }
+    .home-header{
+        font-size: 35px;
+        margin-top: 250px;
+    }
+    .home-menu-box-image img{
+        width: 200px;
+        height: 150px;
+    }
+    .home-menu-box-image{
+        width: 150px;
+        height: 150px;
+    }
+    
+    
+.home-menu-box-name{
+    font-size: 10px;
+}
+
+.home-menu-box-price{
+    font-size: 20px;
+}
+
+.home-menu-box{
+    gap: 50px;
+}
+
+.home-menu{
+    height: 100vh;
+}
+}
